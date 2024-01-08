@@ -4,38 +4,41 @@
     margin: 0;
     padding: 0;
 }
+/*header- banner start here*/
 
 .banner-img{
     width: 1320px;
-height: 600px;
-flex-shrink: 0;
-border-radius: 16px;
-background:rgba(0, 0, 0, 0.5);
-margin-top: 50px;
-margin-left:65px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(4, 1, 12, 0) 100%);
+    margin-top: 50px;
+    margin-left:65px;
+    opacity: 3;
 }
 
 .banner-text{
     text-align: center;
-    color:rgb(17, 168, 238);
+    color: #FFF;
     text-align: center;
     font-family: 'Merriweather', serif;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-position: absolute;
-bottom: 470px;
-left: 600px;
-width: 259px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    bottom: 470px;
+    left: 600px;
+    width: 259px;
+    opacity:8;
 
 }
 
 .banner-description{
     text-align:center;
-    color:rgb(7, 111, 230);
+    color:#ffffff;
     font-family: 'Merriweather', serif;
-    font-size: 72px;
+    font-size: 82px;
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
@@ -43,8 +46,11 @@ width: 259px;
     bottom: 260px;
     left:430px;
     width: 632px;
+    opacity: 8;
 
 }
+/*header-offer deal start here---*/
+
 
 .offer{
     text-align: center;
@@ -73,15 +79,19 @@ width: 259px;
 
 .offer h3{
     color: #070211;
-
-text-align: center;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-bottom: 40px;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
 
 }
+
+
+/*another seaction start here--*/
+
+
 .welcome{
     position:absolute;
 }
@@ -161,13 +171,11 @@ button:hover{
 
 }
 
-
-
 span{
     color: #f00;
 }
 
-
+/*container seaction start here*/
 
 .container{
     position:absolute;
@@ -204,6 +212,11 @@ span{
     align-items: center;
     gap: 10px;
 }
+
+.join-now:hover{
+    background: #79040400;
+}
+
 
 .new-best-offer{
     display:flex;
@@ -342,7 +355,7 @@ line-height: normal;
     transform: rotate(-10.212deg);
     flex-shrink: 0;
     bottom: 300px;
-    z-index: 10;
+    z-index:1;
     
 }
 
@@ -357,40 +370,251 @@ line-height: normal;
     bottom: 240px;
     
 }
+/*portfolio start here--------*/
+
+
+.Portfolio{
+    position:relative;
+    top:1000px;
+    margin-left: 90px;
+}
+.first-line{
+    margin-bottom: 32px;
+}
+.first-line1{
+  
+    width: 395px;
+    height:400px;
+}
+
+.first-line2{
+    margin-left: 32px;
+    width: 395px;
+    height:400px;
+}
+
+.first-line3{
+    margin-left:32px;
+    width: 395px;
+    height:400px;
+}
+
+.grid-item1{
+    
+    width: 395px;
+    height:400px;
+}
+
+.grid-item2{
+ 
+    margin-left:32px;
+    width: 395px;
+    height:400px;
+}
+
+.grid-item3{
+   
+    margin-left:32px;
+    width: 395px;
+    height:400px;
+}
+
+.Portfolio h5{
+    color: #F00;
+    font-family:" Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Portfolio h2{
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Portfolio p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px
+}
+
+
+/*subcribe seaction start here*/
+
+
+.subscribe{
+    position: relative;
+    height:550px;
+    width: 1265px;
+    top:1150px;
+    left: 90px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+   
+}
+
+
+.email-img{
+    justify-content:center;
+    margin-top: 60px;
+}
+
+.subscribe h2{
+    color: #070211;
+text-align: center;
+font-family: 'Merriweather';
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-top: 25px;
+
+}
+
+.subscribe p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family:'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    position: relative;
+    top: 25px;
+    bottom: 30px;
+
+
+}
+
+
+.sub-btn{
+  margin-left:300px;
+  margin-top:30px;
+}
+
+form{
+    background: #FFF;
+    width: 548px;
+    height: 62px;
+    flex-shrink: 0;
+    display: flex;
+    border-radius: 40px 0 0 40px;
+   
+}
+
+
+form input{
+    flex:1;
+    border:none;
+    outline: none;
+    border-radius: 40px 0 0 40px;
+   
+}
+form button{
+    background: #F00;
+    padding:10px 50px;
+    border:none;
+    outline:none;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor:pointer;
+    border-radius: 0 40px 40px 0;
+}
+
+/*footer start here*/
+
+footer{
+    display: flex;
+    background: #070211;
+    position: relative;
+    top:1500px;
+    height:500px;
+
+}
+
+.footer-column1 p{
+    position: relative;
+    top:330px;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left:110px;
+
+}
+
+.footer-column1 h5{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin-left: 110px;
+    position: relative;
+    top: 90px;
+}
+
+
+.footer-column1{
+    font-size: 20px;
+    color:white;
+}
+
+
+.footer-column3{
+    font-size: 20px;
+    color:white;
+    margin-left: 270px;
+}
 
 
 
+.footer-column3 h6{
+    position: relative;
+    top:360px;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    left:150px;
+}
 
 
+.footer-column2{
+    position: relative;
+    left:150px;
+    margin-top:230px;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-column3 p{
+    position: relative;
+    top: 90px;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
 
 
 
